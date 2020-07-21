@@ -1,0 +1,33 @@
+<view class="page" data-weui-theme="{{theme}}">
+	<mp-toptips msg="{{error}}" type="error" show="{{showTopTips}}"></mp-toptips>
+
+	<mp-form-page title="欢迎来到电子书城">
+		<mp-form id="form">
+
+			<mp-cells title="请输入用户名和密码">
+				<mp-cell title="用户名" ext-class="">
+					<input bindinput="formInputChange" data-field="username" class="weui-input" placeholder="请输入用户名" />
+				</mp-cell>
+				<mp-cell title="密码" ext-class="">
+					<input bindinput="formInputChange" data-field="password" class="weui-input" type="password" placeholder="请输入密码" />
+				</mp-cell>
+			</mp-cells>
+
+		</mp-form>
+
+		<view slot="button">
+			<button class="weui-btn" type="primary" bindtap="submitForm">登录</button>
+		</view>
+		<view class="weui-footer weui-footer_fixed-bottom">
+			<view class="weui-footer__links">
+				<a class="weui-footer__link">
+					<navigator url="/pages/logs/logs" hover-class="changestyle">立即注册</navigator>
+				</a>
+				<a class="weui-footer__link">
+					<navigator url="/pages/home/home" hover-class="changestyle">忘记密码？</navigator>
+				</a>
+			</view>
+			<view class="weui-footer__text">Copyright © 2020 Ebookstore Corporation.</view>
+		</view>
+	</mp-form-page>
+</view>

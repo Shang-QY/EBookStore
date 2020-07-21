@@ -1,0 +1,10 @@
+<!--pages/profile/profile.wxml-->
+
+<view class="page">
+  <text>账户内容尚未全部完成哦</text>
+
+  <view bindtap="signOut" class="signOutButton">
+		<text>点我退出登录</text>
+	</view>
+	<bottumbar curr="3"/>
+</view>

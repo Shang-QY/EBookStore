@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mp-tabbar": "../../miniprogram_npm/weui-miniprogram/tabbar/tabbar",
+    "mp-toptips": "../../miniprogram_npm/weui-miniprogram/toptips/toptips"
+  }
+}

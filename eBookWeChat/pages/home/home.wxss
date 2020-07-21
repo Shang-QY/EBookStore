@@ -1,0 +1,42 @@
+.swiper {
+  height: 160px;
+}
+
+.swiper-item {
+  height: 160px;
+  width: 260px;
+}
+
+.card {
+  width: 5rem;
+  height: 7rem;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  background-color: #ffffff;
+  /* box-shadow: 4px 1px 1px #cccccc; */
+  margin: 8px;
+  position: relative;
+}
+
+.cardchange {
+  box-shadow: 1px 4px 1px #cccccc;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  background-color: #eeeeee;
+}
+
+.title {
+  color: gray;
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 10px;
+}
+
+.bar {
+  background-color: #ffffff;
+}

@@ -1,0 +1,18 @@
+<!--pages/order/order.wxml-->
+<view class="page">
+
+  <view wx:if='{{orders.length === 0}}'>
+	  <view>还没有订单哦，快去主页逛逛吧～</view>
+	</view>
+  <view class="list">
+		<block wx:for="{{orders}}" wx:for-item="order">
+			<view class="card" hover-class="cardchange">
+				<order orderID="{{order.orderID}}" orderDate="{{order.date}}"/>
+			</view>
+		</block>
+	</view>
+  
+  <view class="placeholder-view"></view>
+
+	<bottumbar curr="2"/>
+</view>

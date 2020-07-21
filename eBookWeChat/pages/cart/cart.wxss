@@ -1,0 +1,111 @@
+/* pages/cart/cart.wxss */
+.list {
+  display:flex; 
+  flex-direction: column;
+  justify-content:space-around; 
+  flex-wrap:wrap;
+}
+
+.card {
+  width: 300px;
+  height: 7rem;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 1px 4px 1px #cccccc;
+  margin: 8px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  margin: 20rpx 30rpx 20rpx;
+  display: flex;
+}
+
+.cardchange {
+  box-shadow: 1px 4px 1px #ffffff;
+}
+
+.image {
+  width: 90px;
+  height: 90px;
+  background-color: #eeeeee;
+}
+
+.title {
+  color: rgb(0, 0, 0);
+  max-width: 110px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.author {
+  color: #858585;
+  font-size: 12px;
+}
+
+.price {
+  color: red;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/*主容器*/
+.stepper {
+  /* width: 80px; */
+  /* height: 26px; */
+  width: 26px;
+  margin: 20rpx 30rpx 20rpx;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*加号和减号*/
+.stepper .text {
+  padding: 0% !important;
+  float: left;
+  width: 26px;
+  height: 26px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+/*数值*/
+.stepper .input {
+  width: 26px;
+  height: 26px;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.btn2 {
+  width: 150px !important;
+  margin-top: 20rpx;
+  align-self: flex-end;
+  margin-bottom: 20rpx;
+  background-color: rgb(255, 90, 68);
+  color: white;
+  border-radius: 30rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

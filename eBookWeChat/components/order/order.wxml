@@ -1,0 +1,24 @@
+<!--components/order/order.wxml-->
+<view class="card">
+  <view class="date">购买日期：{{orderDate}}</view>
+  <block wx:for="{{orderItems}}" wx:for-item="orderItem">
+				<view class="line-view"></view>
+        <view class="info" bindtap="onBookClick" data-id="{{orderItem.book.bookId}}">
+					<view wx:if="{{orderItem.book.image != null}}">
+					  <image class="image" mode="aspectFill" src="{{orderItem.book.image.imageBase64}}" />
+					</view>
+					<view wx:else>
+					  <image class="image" mode="aspectFill" src="{{'../../images/noImage.png'}}" />
+					</view>
+					<view class="describe">
+            <view class="title">{{orderItem.book.name}}</view>
+            <view class="author">{{orderItem.book.author}}</view>
+            <view class="priceAndAmount">
+              <view class="price">¥{{orderItem.book.price}}</view>
+              <view class="amount">x{{orderItem.amount}}</view>
+            </view>
+          </view>
+          <view class="price2">¥{{orderItem.book.price * orderItem.amount}}</view>
+				</view>
+		</block>
+</view>

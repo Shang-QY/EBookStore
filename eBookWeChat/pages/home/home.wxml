@@ -1,0 +1,31 @@
+<!--pages/home/home.wxml-->
+<view class="page">
+
+	<swiper class="swiper" indicator-dots="true" autoplay="true" circular="true" previous-margin="30px" next-margin="30px">
+		<block wx:for="{{background}}" wx:key="*this">
+			<swiper-item>
+				<image src="{{item}}" class="swiper-item" />
+			</swiper-item>
+		</block>
+	</swiper>
+
+	<mp-tabbar ext-class="bar" list="{{list}}" ></mp-tabbar>
+
+	<view style="display:flex; justify-content:space-around; flex-wrap:wrap;">
+		<block wx:for="{{books}}" wx:for-item="book">
+			<view class="card" hover-class="cardchange">
+				<view bindtap="onBookClick" data-id="{{book.bookId}}">
+					<view wx:if="{{book.image != null}}">
+					  <image class="image" mode="aspectFill" src="{{book.image.imageBase64}}" />
+					</view>
+					<view wx:else>
+					  <image class="image" mode="aspectFill" src="{{'../../images/noImage.png'}}" />
+					</view>
+					<view class="title">{{book.name}}</view>
+				</view>
+			</view>
+		</block>
+	</view>
+	<view class="placeholder-view"></view>
+	<bottumbar curr="0"/>
+</view>

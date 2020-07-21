@@ -1,0 +1,25 @@
+/**app.wxss**/
+@import '/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss';
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.bottum-bar {
+  background-color: rgb(255, 212, 172);
+}
+
+.placeholder-view {
+  width: 100%;
+  height: 60px;
+}
+
+.page {
+  background-color: var(--weui-BG-1);
+}

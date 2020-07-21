@@ -1,0 +1,2 @@
+<!--components/bottumbar/bottumbar.wxml-->
+<mp-tabbar ext-class="bottum-bar" style="position:fixed;bottom:0;width:100%;left:0;right:0;" list="{{list_bottom}}" current="{{curr}}" bindchange="tabChange"></mp-tabbar>

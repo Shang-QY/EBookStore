@@ -1,0 +1,14 @@
+{
+  "name": "sqy-ebookstore",
+  "version": "1.0.0",
+  "description": "this is shangqy's miniprogram",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sqy",
+  "license": "ISC",
+  "dependencies": {
+    "weui-miniprogram": "^1.0.3"
+  }
+}

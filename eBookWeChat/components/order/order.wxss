@@ -1,0 +1,77 @@
+/* components/order/order.wxss */
+.card {
+  display:flex; 
+  flex-direction: column;
+  justify-content:space-around; 
+  flex-wrap:wrap;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 20px;
+  border: 3rpx solid #858585;
+}
+
+.info {
+  margin: 20rpx 30rpx 20rpx;
+  display: flex;
+  align-items: flex-end;
+}
+
+.cardchange {
+  box-shadow: 1px 4px 1px #ffffff;
+}
+
+.image {
+  width: 90px;
+  height: 90px;
+  background-color: #eeeeee;
+}
+
+.title {
+  color: rgb(0, 0, 0);
+  max-width: 110px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.author {
+  color: #858585;
+  font-size: 12px;
+}
+
+.price {
+  color: rgb(255, 106, 68);
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.priceAndAmount {
+  display: flex;
+  align-items: flex-end;
+}
+
+.price2{
+  color: rgb(255, 106, 68);
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.describe{
+  width: 110px;
+}
+
+.amount{
+  margin-left: 5px;
+}
+
+.date{
+  align-self: center;
+  color: #858585;
+}
+
+.line-view {
+  width: 100%;
+  height: 3rpx;
+  background-color: #c9c9c9
+}
