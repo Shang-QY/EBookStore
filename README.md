@@ -3,23 +3,14 @@ web前端用react，微信小程序用wechat辅助以WeUI组件库，iOS用react
 
 1.iOS页面效果展示：
 
-<img src="https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_login.png" width="200" height="200" alt="login"/><br/>
-<img src="https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_ios_signup.png" width="200" height="200" alt="signup"/><br/>
-<img src="https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_home.png" width="200" height="200" alt="home"/><br/>
-<img src="https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_bookDetail.png" width="200" height="200" alt="bookDetail"/><br/>
-<img src="https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_bookDetail2.png" width="200" height="200" alt="bookDetail2"/><br/>
-<img src="https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_cart.png" width="200" height="200" alt="cart"/><br/>
-<img src="https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_order.png" width="200" height="200" alt="order"/><br/>
-<img src="https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_profile.png" width="200" height="200" alt="profile"/><br/>
-
-![Image text](https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_login.png)
-![Image text](https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_signup.png)
-![Image text](https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_home.png)
-![Image text](https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_bookDetail.png)
-![Image text](https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_bookDetail2.png)
-![Image text](https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_cart.png)
-![Image text](https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_order.png)
-![Image text](https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_profile.png)
+<img src="https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_login.png" width="250" alt="login"/>
+<img src="https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_ios_signup.png" width="250" alt="signup"/>
+<img src="https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_home.png" width="250" alt="home"/><br/>
+<img src="https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_bookDetail.png" width="250" alt="bookDetail"/>
+<img src="https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_bookDetail2.png" width="250" alt="bookDetail2"/>
+<img src="https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_cart.png" width="250" alt="cart"/><br/>
+<img src="https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_order.png" width="250" alt="order"/>
+<img src="https://github.com/Shang-QY/SE122-/blob/master/showImages/ios/ios_profile.png" width="250" alt="profile"/>
 
 2.Web页面效果展示
 
