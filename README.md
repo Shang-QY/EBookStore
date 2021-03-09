@@ -1,4 +1,4 @@
-# SE122-
+# SE122-互联网应用开发--EBookStore电子书城
 web前端用react，微信小程序用wechat辅助以WeUI组件库，iOS用react-native，后端用springboot搭建的电子书城
 
 ## 1.iOS页面效果展示：
